@@ -1,0 +1,51 @@
+body
+{
+margin: 0;
+    background-image: url(concert.jpg);
+    background-attachment: fixed;
+  background-repeat: no-repeat; 
+  background-position:  center; 
+  background-size: cover; 
+  color: black;
+  height: 100vh;
+}
+.title
+{
+  text-align: center;
+  font-size: 5vw;
+}
+.songs
+{
+    display: flex;
+    align-items: center;
+   justify-content: space-around;
+    margin: 2%;
+    flex-wrap: wrap;
+   
+    height: 80%;
+  
+
+}
+
+.name
+{
+    margin: 3%;
+   font-size: 2vw;
+    color: white;
+
+    display: flex;
+    backdrop-filter: blur(10px);
+    height: 25%;
+    text-align: center;
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5%;
+     box-shadow: 2px 2px 7px rgb(177, 177, 177), -2px -2px 7px rgb(177, 177, 177);
+
+}
+a
+{
+  color: white;
+  text-decoration: none;
+}

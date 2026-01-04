@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  background-image: linear-gradient(50deg, black 30%, rgb(48, 47, 47));
+  background-attachment: fixed;
+  color: white;
+
+ 
+  
+}
+.title
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 6vw;
+   height: 20vw;
+    text-shadow: 4px 4px black;
+    text-align: center;
+   
+   
+}
+
+.audio_container
+{
+    width: 100%;
+    height: 10vw;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.audio
+{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 50%;
+  
+ 
+   
+}
+.text
+{
+    font-family: Lobster;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   height: 30vw;
+   font-size: 10vw;
+   text-shadow: 4px 4px black;
+}
+.video_container
+{
+   
+     width: 100%;
+    height:100% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+     height: 35vw;
+     
+    
+    
+}
+.video{
+ 
+    display: flex;
+    justify-content: center;
+
+    height: 100%;
+    object-fit: cover;
+   
+    border-radius: 8%;
+    box-shadow: 0 0 10px white, 0 0 10px white ;
+ 
+}
+.lyrics_title
+{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 8vw;
+   height: 20vw;
+    text-shadow: 4px 4px black;
+
+}
+.lyrics
+{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 3vw;
+    text-shadow: 2px 2px black;
+}

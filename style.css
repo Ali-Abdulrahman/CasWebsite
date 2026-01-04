@@ -1,0 +1,213 @@
+body {
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+  height: 2500px;
+  background-image: linear-gradient(50deg, black 30%, rgb(48, 47, 47));
+
+
+  background-attachment: fixed;
+  justify-content: space-between;
+  color: white;
+}
+
+.head {
+  background-color: black;
+  height: 9vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title_name {
+  font-size: 3vw;
+  color: white;
+  font-family: "Lobster";
+}
+.content {
+  display: grid;
+
+  grid-template-columns: 1fr 2fr;
+  grid-auto-rows: 1fr;
+}
+
+.image {
+  display: inline-block;
+
+  margin-left: 10%;
+  margin-top: 13%;
+  width: 70%;
+  height: 90%;
+  object-fit: fill;
+  border-radius: 20px;
+  box-shadow: 2px 2px 7px rgb(177, 177, 177), -2px -2px 7px rgb(177, 177, 177);
+}
+.discription {
+  font-size: 2.4vw;
+  color: white;
+
+  height: 86%;
+  margin-right: 10%;
+  margin-top: 5%;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 7px rgb(177, 177, 177), -2px -2px 7px rgb(177, 177, 177);
+}
+.discription_text {
+  margin: 0px;
+  
+}
+
+.albums,
+.members {
+  font-family: Dancing Script;
+  font-size: 50px;
+  font-size: 8vw;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.albums_images {
+  margin-left: 30px;
+  margin-right: 10px;
+
+ 
+  display: flex;
+
+  flex-wrap: wrap;
+
+  justify-content: space-evenly;
+}
+.album_desc {
+  width: 25%;
+font-size: 2.6vw;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  height: 100%;
+
+  background-color: black;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 2px 2px 7px rgb(177, 177, 177), -2px -2px 7px rgb(177, 177, 177);
+}
+.album1_img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+
+  width: 100%;
+}
+
+.members_desc {
+  margin-left: 30px;
+  margin-right: 10px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.members_text {
+  font-size: 2.6vw;
+  text-align: center;
+  color: white;
+  
+}
+a{
+  text-decoration: none;
+}
+.current_members {
+  width: 25%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  background-color: black;
+  text-align: center;
+  border: px black solid;
+  border-radius: 20px;
+  box-shadow: 2px 2px 7px rgb(177, 177, 177), -2px -2px 7px rgb(177, 177, 177);
+}
+.members_images {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+
+  width: 100%;
+  height: 80%;
+}
+.links {
+  display: flex;
+
+  
+  
+
+  height: 40vh;
+  width: 100%;
+}
+.icon{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  
+  
+}
+
+.youtube_img {
+ 
+  box-shadow: 0 0 10px red, 0 0 10px red;
+  border-radius: 50%;
+ height: 80%;
+ width: 80%;
+
+
+}
+.instagram_img {
+  color: red;
+
+ 
+  box-shadow: 0 0 10px purple , 0 0 10px pink;
+  border-radius: 30%;
+
+  height: 80%;
+ width: 80%;
+}
+.spotify_img
+{
+  color: red;
+ 
+  border-radius: 50%;
+  height: 80%;
+ width: 80%;
+  box-shadow: 0 0 10px green, 0 0 10px green;
+}
+.twitter_img
+{
+  height: 80%;
+ width: 80%;
+ 
+
+  border-radius: 14%;
+  background-color: white;
+  box-shadow: 0 0 10px black, 0 0 10px white;
+}
+.website_img
+{
+  height: 80%;
+ width: 80%;
+ 
+
+  border-radius: 14%;
+  box-shadow: 0 0 10px white, 0 0 10px white;
+}
+.footer
+{
+  margin-top: 10%;
+   background-color: black;
+  height: 12vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:3vw ;
+}
+p{
+  color: white;
+}
