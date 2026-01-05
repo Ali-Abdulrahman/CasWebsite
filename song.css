@@ -1,6 +1,7 @@
 body {
   margin: 0;
   background-image: linear-gradient(50deg, black 30%, rgb(48, 47, 47));
+  background-color: black;
   background-attachment: fixed;
   color: white;
 
@@ -38,8 +39,6 @@ body {
     justify-content: center;
     color: white;
     width: 50%;
-  
- 
    
 }
 .text
