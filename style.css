@@ -3,7 +3,7 @@ body {
   font-family: "Times New Roman", Times, serif;
 
   background-image: linear-gradient(50deg, black 30%, rgb(48, 47, 47));
-
+  background-color: black;
   background-attachment: fixed;
   justify-content: space-between;
   color: white;
@@ -11,10 +11,29 @@ body {
 
 .head {
   background-color: black;
-  height: 8dvh;
+  height: 20dvh;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+@media ((width<=900px) and (width>450px)) {
+  .head {
+  background-color: black;
+  height: 14dvh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+}
+
+@media (width<=450px) {
+  .head {
+  background-color: black;
+  height: 7dvh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 }
 .title_name {
   font-size: 3vw;
