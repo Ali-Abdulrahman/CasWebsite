@@ -1,9 +1,8 @@
 body {
   margin: 0;
   font-family: "Times New Roman", Times, serif;
-  height: 2500px;
-  background-image: linear-gradient(50deg, black 30%, rgb(48, 47, 47));
 
+  background-image: linear-gradient(50deg, black 30%, rgb(48, 47, 47));
 
   background-attachment: fixed;
   justify-content: space-between;
@@ -12,13 +11,16 @@ body {
 
 .head {
   background-color: black;
-  height: 9vh;
+  height: 8vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .title_name {
   font-size: 3vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: white;
   font-family: "Lobster";
 }
@@ -53,7 +55,6 @@ body {
 }
 .discription_text {
   margin: 0px;
-  
 }
 
 .albums,
@@ -72,7 +73,6 @@ body {
   margin-left: 30px;
   margin-right: 10px;
 
- 
   display: flex;
 
   flex-wrap: wrap;
@@ -81,7 +81,7 @@ body {
 }
 .album_desc {
   width: 25%;
-font-size: 2.6vw;
+  font-size: 2.6vw;
   margin-right: 5%;
   margin-bottom: 5%;
   height: 100%;
@@ -110,9 +110,8 @@ font-size: 2.6vw;
   font-size: 2.6vw;
   text-align: center;
   color: white;
-  
 }
-a{
+a {
   text-decoration: none;
 }
 .current_members {
@@ -135,79 +134,63 @@ a{
 .links {
   display: flex;
 
-  
-  
-
-  height: 40vh;
   width: 100%;
 }
-.icon{
+.icon {
   flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
- 
-  
-  
+  border: 2px solid red;
 }
 
 .youtube_img {
- 
   box-shadow: 0 0 10px red, 0 0 10px red;
   border-radius: 50%;
- height: 80%;
- width: 80%;
-
-
+  height: 80%;
+  width: 80%;
 }
 .instagram_img {
   color: red;
 
- 
-  box-shadow: 0 0 10px purple , 0 0 10px pink;
+  box-shadow: 0 0 10px purple, 0 0 10px pink;
   border-radius: 30%;
 
   height: 80%;
- width: 80%;
+  width: 80%;
 }
-.spotify_img
-{
+.spotify_img {
   color: red;
- 
+
   border-radius: 50%;
   height: 80%;
- width: 80%;
+  width: 80%;
   box-shadow: 0 0 10px green, 0 0 10px green;
 }
-.twitter_img
-{
+.twitter_img {
   height: 80%;
- width: 80%;
- 
+  width: 80%;
 
   border-radius: 14%;
   background-color: white;
   box-shadow: 0 0 10px black, 0 0 10px white;
 }
-.website_img
-{
+.website_img {
   height: 80%;
- width: 80%;
- 
+  width: 80%;
 
   border-radius: 14%;
   box-shadow: 0 0 10px white, 0 0 10px white;
 }
-.footer
-{
+.footer {
   margin-top: 10%;
-   background-color: black;
-  height: 12vh;
+  background-color: black;
+  height: 8vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size:3vw ;
+  font-size: 3vw;
 }
-p{
+p {
   color: white;
 }
